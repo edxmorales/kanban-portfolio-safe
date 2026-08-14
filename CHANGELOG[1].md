@@ -1,0 +1,71 @@
+# Changelog
+
+Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+## [1.5.0]
+
+### Agregado
+
+- Rol nuevo en la sección 5: **Representante de Valor de Negocio**, única fuente aceptada del componente de valor de negocio (costo de demora) del WSJF — cierra el vacío de quién le da ese número al framework.
+- Columna "Respaldo" en la tabla de roles y gobierno: cada rol de autoridad (Responsable de Flujo de Portafolio, Aprobador de Clase de Servicio, Facilitador del Ritual Semanal, Líder de Flujo de Valor, Representante de Valor de Negocio, Dueño de Calidad del Flujo) tiene ahora un respaldo nombrado explícitamente, para que la gobernanza del framework no tenga el mismo bus factor que busca eliminar en el equipo.
+- Sección 5.1 (nueva): escalamiento y desacuerdos entre roles, en tres niveles — dentro de un flujo de valor, entre un flujo y la vista de portafolio, y lo que no se resuelve en el ritual semanal se lleva a la recalibración trimestral.
+- Sección 6.2 (nueva): dependencias entre flujos de valor — cómo se declaran en el refinamiento, cómo se vuelven visibles en la vista única de capacidad, y el indicador que expone cuándo los flujos de valor están mal agrupados.
+- Sección 6.3 (nueva): onboarding de una persona nueva o rotación interna entre flujos de valor — tope de WIP reducido al entrar, punto de referencia informal, acceso a documentación existente, y transferencia de conocimiento antes de rotar (extiende la lógica de cierre de contrato freelance de 6.1 al caso interno).
+- Definición de Listo, en concreto: checklist explícito de entrada a "En desarrollo" en la sección 7, como contraparte de la Definición de Hecho ya existente, con autoridad del Facilitador del Ritual Semanal para devolver a refinamiento lo que no la cumpla.
+- Criterio de decisión (go/no-go) para cerrar el piloto en la sección 9.9: umbral explícito de cuántos indicadores del puntaje compuesto deben mejorar para expandir, ajustar y repetir, o documentar como aprendizaje negativo.
+- Hoja de ruta (sección 11): nuevo paso explícito para nombrar cada rol con su respaldo y designar el Representante de Valor de Negocio antes de instalar WSJF; el paso del piloto ahora exige acordar el criterio de éxito antes de empezar, no después de ver resultados.
+
+## [1.4.0]
+
+### Agregado
+
+- Sección 12 (nueva): presupuesto y dotación — costo de mantener el negocio vs. cambiarlo, costo real de dotación interna vs. freelance (incluyendo el costo oculto de transferencia de conocimiento), categorías mínimas de presupuesto operativo, cómo el presupuesto se conecta con el piso de capacidad por iniciativa, e indicadores de eficiencia de costo. La sección "Cómo evoluciona este framework" pasa a ser la sección 13.
+- Gráfico-póster de una sola pieza (`docs/kps-framework-overview.svg` / `.png`), estilo compendio imprimible: Diagnóstico 360 como paso 0, el flujo de principio a fin con badges de WIP, un panel de "check rápido" de 8 puntos para verificar cumplimiento en el ritual semanal, y una tira de roles — todo en iconos de línea, sin texto explicativo largo.
+- Nota explícita en el resumen ejecutivo: el Diagnóstico 360 es el punto de entrada obligatorio del framework, antes de abordar cualquier proyecto o iniciativa.
+
+### Corregido
+
+- Iconos duplicados en la primera versión del gráfico-póster: "Revisión" ahora usa un ícono propio (antes compartía el de "Refinar"), y "Facilitador del Ritual Semanal" ahora usa un ícono propio (antes compartía el de "Guardia Rotativa").
+
+## [1.3.0]
+
+### Agregado
+
+- Sección 0 (nueva): Diagnóstico 360 — el paso obligatorio antes de instalar cualquier regla del framework, revisando capacidad real por persona, cumplimiento de WIP, estado de cada iniciativa, estado de PRs/flujo de código, y actividad real de QA. Referenciado como Paso 0 de la hoja de ruta.
+
+## [1.2.0]
+
+### Agregado
+
+- Sección 6.1: modelo de dotación — criterios y reglas para decidir cuándo usar personal freelance/por contrato (trabajo tipo proyecto, con fecha de fin) y cuándo debe quedarse con personal interno (mantenimiento del negocio, soporte, deuda técnica), incluyendo cómo se refleja la capacidad freelance en la vista única de portafolio.
+- Sección 9.10: mapeo explícito de los indicadores del framework contra los desperdicios clásicos de Lean (espera, exceso de WIP, retrabajo, sobreprocesamiento, conocimiento no transferido, handoffs), para anclar el sistema de medición a eficiencia y costo, no solo a velocidad.
+- Sección 10 (nueva): apalancamiento con inteligencia artificial en captura/reporte diario y semanal, sugerencia de clase de servicio, apoyo a la estimación de WSJF, generación de documentación para reducir bus factor, apoyo a QA, y alertas de eficiencia — siempre acelerando reglas ya definidas por el framework, nunca reemplazando la autoridad de decisión de los roles humanos.
+
+## [1.1.0]
+
+### Agregado
+
+- Sección 9 expandida de una lista simple de métricas a un sistema de medición completo: indicadores de flujo, capacidad y carga, interrupción y costo, deuda técnica, calidad, predictibilidad, un puntaje compuesto de eficiencia, la cadencia de medición (diaria/semanal/mensual/trimestral), y la tabla de indicadores para validar el piloto (antes/después/control).
+
+## [1.0.0] — Versión inicial
+
+Primera versión publicada del framework.
+
+### Contenido incluido
+
+- El problema que resuelve y los fundamentos (por qué Kanban + capa de portafolio de SAFe, y no Scrum ni SAFe completo).
+- Los 7 pilares del framework: vista única de capacidad, límite de WIP por persona, clases de servicio con WSJF, piso de capacidad por iniciativa, flujos de valor, ritual semanal, recalibración trimestral.
+- 5 mecánicas propias: costo de interrupción, guardia rotativa, interés de deuda técnica, autoridad de clase de servicio, visibilidad radical.
+- Roles y gobierno con tabla de responsabilidad/autoridad.
+- Modelo de gestión de equipos por flujo de valor y pool habilitante compartido.
+- Integración de QA al flujo (shift-left, WIP propio de QA, Definición de Listo/Hecho).
+- Flujo de infraestructura de principio a fin: ramas, PRs, pipeline de CI, ambientes, feature flags, rollback, ventana de observación post-despliegue.
+- Métricas de seguimiento.
+- Hoja de ruta de implementación en 7 pasos.
+- Anexos: SAFe en profundidad (competencias, configuraciones, principios, comparación con Nexus/LeSS/Scrum@Scale) y glosario de términos.
+
+### Pendiente para próximas versiones
+
+- Casos de estudio anonimizados de equipos que lo hayan aplicado.
+- Plantillas concretas (tablero, definición de listo/hecho, formato de la tarea de flujo de portafolio) listas para copiar.
+- Guía de facilitación para el ritual semanal y la recalibración trimestral.

@@ -1,0 +1,32 @@
+KPS — Kanban de Portafolio con SAFe
+Licencia: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+SPDX-License-Identifier: CC-BY-SA-4.0
+
+Resumen en lenguaje simple (esto no reemplaza el texto legal completo):
+
+Eres libre de:
+  - Compartir — copiar y redistribuir este framework en cualquier medio o formato.
+  - Adaptar — remezclar, transformar y construir a partir de este framework, para cualquier propósito, incluso comercialmente.
+
+Bajo los siguientes términos:
+  - Atribución — debes dar crédito de forma razonable, incluir un enlace a la licencia,
+    e indicar si se hicieron cambios. Puedes hacerlo de cualquier manera razonable,
+    pero no de forma que sugiera que el licenciante te respalda a ti o tu uso.
+  - CompartirIgual (ShareAlike) — si remezclas, transformas o creas a partir de este
+    framework, debes distribuir tus contribuciones bajo la misma licencia que el original.
+  - Sin restricciones adicionales — no puedes aplicar términos legales ni medidas
+    tecnológicas que restrinjan legalmente a otros de hacer cualquier cosa que la
+    licencia permita.
+
+---
+
+IMPORTANTE ANTES DE PUBLICAR: este archivo incluye el resumen human-readable
+("Commons Deed") de CC BY-SA 4.0, no el texto legal completo ("Legal Code").
+Antes de publicar este repositorio formalmente, reemplaza este archivo con el
+texto legal completo copiado directamente de la fuente oficial:
+
+  https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Esto se deja así deliberadamente en vez de reproducir de memoria un documento
+legal de varios miles de palabras, para evitar imprecisiones en un texto que
+va a gobernar los derechos de uso de este framework.
