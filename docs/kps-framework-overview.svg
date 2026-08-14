@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#898781"/>
+    </marker>
+
+    <!-- ============ ICON SYMBOLS, 48x48 grid, drawn in currentColor, fill always none ============ -->
+    <symbol id="ic-people" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="14" cy="16" r="5.5"/><path d="M4,34 Q14,20 24,34 Z"/>
+      <circle cx="34" cy="16" r="5.5"/><path d="M24,34 Q34,20 44,34 Z"/>
+      <circle cx="24" cy="10" r="5.5"/><path d="M13,32 Q24,15 35,32 Z"/>
+    </g></symbol>
+    <symbol id="ic-gauge" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8,34 A18,18 0 0 1 40,34"/><line x1="24" y1="34" x2="33" y2="21"/><circle cx="24" cy="34" r="2.2" fill="currentColor"/>
+    </g></symbol>
+    <symbol id="ic-clock" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="24" cy="25" r="16"/><line x1="24" y1="25" x2="24" y2="14"/><line x1="24" y1="25" x2="32" y2="30"/>
+    </g></symbol>
+    <symbol id="ic-code" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17,14 L6,24 L17,34"/><path d="M31,14 L42,24 L31,34"/>
+    </g></symbol>
+    <symbol id="ic-shield" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24,6 L40,12 V24 Q40,36 24,42 Q8,36 8,24 V12 Z"/><path d="M16,23 L21,29 L32,17"/>
+    </g></symbol>
+    <symbol id="ic-inbox" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8,18 H40 V38 H8 Z"/><path d="M8,18 L18,18 L21,26 L27,26 L30,18 L40,18"/>
+    </g></symbol>
+    <symbol id="ic-search" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="20" cy="20" r="12"/><line x1="29" y1="29" x2="40" y2="40"/>
+    </g></symbol>
+    <symbol id="ic-rocket" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24,6 Q33,17 32,29 L24,35 L16,29 Q15,17 24,6 Z"/><circle cx="24" cy="19" r="3.2"/><path d="M17,29 L12,40"/><path d="M31,29 L36,40"/>
+    </g></symbol>
+    <symbol id="ic-cloud" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14,33 Q7,33 7,26 Q7,19 14,19 Q16,10 25,10 Q35,10 36,19 Q41,19 41,26 Q41,33 34,33 Z"/>
+    </g></symbol>
+    <symbol id="ic-siren" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24,7 L43,39 H5 Z"/><line x1="24" y1="18" x2="24" y2="29"/><circle cx="24" cy="34" r="1.8" fill="currentColor"/>
+    </g></symbol>
+    <symbol id="ic-coins" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="24" cy="35" rx="15" ry="4.2"/><ellipse cx="24" cy="28" rx="15" ry="4.2"/><ellipse cx="24" cy="21" rx="15" ry="4.2"/><path d="M24,4 V14 M18,9 L24,3 L30,9"/>
+    </g></symbol>
+    <symbol id="ic-refresh" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M38,12 A16,16 0 1 0 41,26"/><path d="M30,8 L38,12 L36,21"/>
+    </g></symbol>
+    <symbol id="ic-megaphone" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6,20 L19,14 V33 L6,27 Z"/><path d="M19,14 L35,7 V40 L19,33"/><path d="M39,17 Q44,24 39,31"/>
+    </g></symbol>
+    <symbol id="ic-flag" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="14" y1="6" x2="14" y2="42"/><path d="M14,9 L37,9 L29,18 L37,27 L14,27"/>
+    </g></symbol>
+    <symbol id="ic-eye" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4,24 Q24,8 44,24 Q24,40 4,24 Z"/><circle cx="24" cy="24" r="6"/>
+    </g></symbol>
+    <symbol id="ic-chat" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="6" y="10" width="36" height="24" rx="6"/><path d="M16,34 L16,44 L26,34"/>
+    </g></symbol>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1200" fill="#f9f9f7"/>
+
+  <!-- ================= HEADER ================= -->
+  <text x="600" y="38" text-anchor="middle" font-size="27" font-weight="700" fill="#0b0b0b">KPS — Kanban de Portafolio con SAFe</text>
+  <text x="600" y="60" text-anchor="middle" font-size="13" fill="#898781">v1.5.0 · CC BY-SA 4.0 · guía visual de referencia</text>
+
+  <!-- ================= BAND B: DIAGNOSTICO 360 ================= -->
+  <text x="600" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#4a3aa7" letter-spacing="0.5">PASO 0 — DIAGNÓSTICO 360</text>
+
+  <g stroke="#4a3aa7" fill="none">
+    <use href="#ic-people" x="132" y="112" width="56" height="56"/>
+    <use href="#ic-gauge"  x="352" y="112" width="56" height="56"/>
+    <use href="#ic-clock"  x="572" y="112" width="56" height="56"/>
+    <use href="#ic-code"   x="792" y="112" width="56" height="56"/>
+    <use href="#ic-shield" x="1012" y="112" width="56" height="56"/>
+  </g>
+  <g font-size="12.5" font-weight="600" fill="#52514e" text-anchor="middle">
+    <text x="160" y="185">Capacidad</text>
+    <text x="160" y="200">real/persona</text>
+    <text x="380" y="185">Cumplimiento</text>
+    <text x="380" y="200">de WIP</text>
+    <text x="600" y="185">Iniciativas</text>
+    <text x="600" y="200">congeladas</text>
+    <text x="820" y="185">PRs y</text>
+    <text x="820" y="200">colisiones</text>
+    <text x="1040" y="185">QA real,</text>
+    <text x="1040" y="200">no invisible</text>
+  </g>
+
+  <line x1="600" y1="215" x2="600" y2="248" stroke="#898781" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- ================= BAND C: THE FLOW ================= -->
+  <text x="600" y="262" text-anchor="middle" font-size="14" font-weight="700" fill="#0b0b0b" letter-spacing="0.5">EL FLUJO, DE PRINCIPIO A FIN</text>
+
+  <g stroke="#898781" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <line x1="128" y1="335" x2="234" y2="335"/>
+    <line x1="295" y1="335" x2="401" y2="335"/>
+    <line x1="462" y1="335" x2="568" y2="335"/>
+    <line x1="629" y1="335" x2="735" y2="335"/>
+    <line x1="796" y1="335" x2="902" y2="335"/>
+    <line x1="963" y1="335" x2="1069" y2="335"/>
+  </g>
+  <!-- return loop, dashed -->
+  <path d="M 1097,363 L 1097,410 L 100,410 L 100,363" fill="none" stroke="#c3c2b7" stroke-width="2" stroke-dasharray="2,7" marker-end="url(#arrow)"/>
+
+  <g stroke="#0b0b0b" fill="none">
+    <use href="#ic-inbox"  x="72"  y="307" width="56" height="56"/>
+    <use href="#ic-search" x="239" y="307" width="56" height="56"/>
+    <use href="#ic-code"   x="406" y="307" width="56" height="56"/>
+    <use href="#ic-eye"    x="573" y="307" width="56" height="56"/>
+    <use href="#ic-shield" x="740" y="307" width="56" height="56"/>
+    <use href="#ic-rocket" x="907" y="307" width="56" height="56"/>
+    <use href="#ic-cloud"  x="1074" y="307" width="56" height="56"/>
+  </g>
+  <g font-size="12.5" font-weight="600" fill="#52514e" text-anchor="middle">
+    <text x="100" y="382">Backlog</text>
+    <text x="267" y="382">Refinar</text>
+    <text x="434" y="382">Desarrollo</text>
+    <text x="601" y="382">Revisión</text>
+    <text x="768" y="382">QA</text>
+    <text x="935" y="382">Desplegar</text>
+    <text x="1102" y="382">Producción</text>
+  </g>
+  <g font-size="10.5" fill="#104281">
+    <rect x="404" y="282" width="60" height="18" rx="9" fill="#cde2fb"/><text x="434" y="295" text-anchor="middle">WIP/pers.</text>
+    <rect x="565" y="282" width="72" height="18" rx="9" fill="#cde2fb"/><text x="601" y="295" text-anchor="middle">WIP/revisor</text>
+    <rect x="736" y="282" width="64" height="18" rx="9" fill="#cde2fb"/><text x="768" y="295" text-anchor="middle">WIP propio</text>
+  </g>
+
+  <!-- ================= BAND E: QUICK CHECK ================= -->
+  <rect x="60" y="450" width="1080" height="430" rx="14" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+  <text x="600" y="490" text-anchor="middle" font-size="16" font-weight="700" fill="#0b0b0b" letter-spacing="0.5">CHECK RÁPIDO — ¿SE ESTÁ CUMPLIENDO?</text>
+
+  <!-- column 1 -->
+  <g>
+    <rect x="100" y="524" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-gauge" x="140" y="518" width="36" height="36" stroke="#2a78d6" fill="none"/>
+    <text x="188" y="542" font-size="15" fill="#0b0b0b">WIP ≤ límite, por persona</text>
+
+    <rect x="100" y="592" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-siren" x="140" y="586" width="36" height="36" stroke="#eb6834" fill="none"/>
+    <text x="188" y="610" font-size="15" fill="#0b0b0b">Expedite ≤ límite acordado</text>
+
+    <rect x="100" y="660" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-clock" x="140" y="654" width="36" height="36" stroke="#e34948" fill="none"/>
+    <text x="188" y="678" font-size="15" fill="#0b0b0b">Ninguna iniciativa &gt;5 días sin avance</text>
+
+    <rect x="100" y="728" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-code" x="140" y="722" width="36" height="36" stroke="#4a3aa7" fill="none"/>
+    <text x="188" y="746" font-size="15" fill="#0b0b0b">PRs abiertos &lt; 2 días</text>
+  </g>
+
+  <!-- column 2 -->
+  <g>
+    <rect x="650" y="524" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-shield" x="690" y="518" width="36" height="36" stroke="#1baf7a" fill="none"/>
+    <text x="738" y="542" font-size="15" fill="#0b0b0b">QA con WIP propio, visible</text>
+
+    <rect x="650" y="592" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-coins" x="690" y="586" width="36" height="36" stroke="#eda100" fill="none"/>
+    <text x="738" y="610" font-size="15" fill="#0b0b0b">Deuda técnica con cuota semanal</text>
+
+    <rect x="650" y="660" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-people" x="690" y="654" width="36" height="36" stroke="#2a78d6" fill="none"/>
+    <text x="738" y="678" font-size="15" fill="#0b0b0b">Nadie por encima de su tope</text>
+
+    <rect x="650" y="728" width="24" height="24" rx="4" fill="none" stroke="#0b0b0b" stroke-width="2.5"/>
+    <use href="#ic-megaphone" x="690" y="722" width="36" height="36" stroke="#008300" fill="none"/>
+    <text x="738" y="746" font-size="15" fill="#0b0b0b">Estado visible para todo el equipo</text>
+  </g>
+
+  <text x="600" y="850" text-anchor="middle" font-size="12.5" fill="#898781">Imprime esta guía y marca cada casilla en el ritual semanal</text>
+
+  <!-- ================= BAND F: ROLES ================= -->
+  <text x="600" y="920" text-anchor="middle" font-size="14" font-weight="700" fill="#0b0b0b" letter-spacing="0.5">ROLES</text>
+  <g stroke="#0b0b0b" fill="none">
+    <use href="#ic-people"    x="72"  y="936" width="48" height="48"/>
+    <use href="#ic-siren"     x="255" y="936" width="48" height="48"/>
+    <use href="#ic-chat"      x="438" y="936" width="48" height="48"/>
+    <use href="#ic-flag"      x="621" y="936" width="48" height="48"/>
+    <use href="#ic-refresh"   x="804" y="936" width="48" height="48"/>
+    <use href="#ic-shield"    x="987" y="936" width="48" height="48"/>
+  </g>
+  <g font-size="11.5" font-weight="600" fill="#52514e" text-anchor="middle">
+    <text x="96"  y="1002">Resp. de Flujo</text>
+    <text x="96"  y="1016">de Portafolio</text>
+    <text x="279" y="1002">Aprobador</text>
+    <text x="279" y="1016">Clase Servicio</text>
+    <text x="462" y="1002">Facilitador</text>
+    <text x="462" y="1016">Ritual Semanal</text>
+    <text x="645" y="1002">Líder Flujo</text>
+    <text x="645" y="1016">de Valor</text>
+    <text x="828" y="1002">Guardia</text>
+    <text x="828" y="1016">Rotativa</text>
+    <text x="1011" y="1002">Dueño de</text>
+    <text x="1011" y="1016">Calidad</text>
+  </g>
+
+  <!-- ================= FOOTER ================= -->
+  <line x1="60" y1="1060" x2="1140" y2="1060" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="600" y="1090" text-anchor="middle" font-size="12.5" fill="#898781">No es Scrum · No es SAFe completo — Kanban + capa de portafolio de SAFe, más mecánicas propias, en piloto</text>
+  <text x="600" y="1112" text-anchor="middle" font-size="12.5" fill="#898781">Ver FRAMEWORK.md para el detalle completo de cada pieza</text>
+</svg>
