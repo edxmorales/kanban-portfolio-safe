@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 900" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <rect x="0" y="0" width="980" height="900" fill="#f9f9f7"/>
+  <text x="490.0" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#0b0b0b">Diagnóstico 360° de transformación de TI</text>
+  <text x="490.0" y="66" text-anchor="middle" font-size="13.5" fill="#898781">Los diez frentes que recorrería un Director de TI al llegar a una organización</text>
+  <path d="M 495.76,150.06 A 300,300 0 0 1 661.64,203.95 L 587.26,310.57 A 170,170 0 0 0 493.26,280.03 Z" fill="#4a3aa7" opacity="0.92"/>
+  <circle cx="562.6" cy="226.5" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="562.6" y="232.5" text-anchor="middle" font-size="16" font-weight="700" fill="#4a3aa7">1</text>
+  <text x="595.1" y="126.6" text-anchor="start" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="595.1" dy="0">Escuchar</tspan></text>
+  <line x1="587.0" y1="151.4" x2="595.1" y2="126.6" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 670.96,210.72 A 300,300 0 0 1 773.48,351.83 L 650.64,394.37 A 170,170 0 0 0 592.55,314.41 Z" fill="#2a78d6" opacity="0.92"/>
+  <circle cx="680.1" cy="311.9" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="680.1" y="317.9" text-anchor="middle" font-size="16" font-weight="700" fill="#2a78d6">2</text>
+  <text x="765.1" y="250.2" text-anchor="start" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="765.1" dy="0">Infraestructura</tspan></text>
+  <line x1="744.0" y1="265.4" x2="765.1" y2="250.2" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 777.04,362.79 A 300,300 0 0 1 777.04,537.21 L 652.66,499.42 A 170,170 0 0 0 652.66,400.58 Z" fill="#1baf7a" opacity="0.92"/>
+  <circle cx="725.0" cy="450.0" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="725.0" y="456.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1baf7a">3</text>
+  <text x="830.0" y="450.0" text-anchor="start" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="830.0" dy="0">Aplicaciones</tspan></text>
+  <line x1="804.0" y1="450.0" x2="830.0" y2="450.0" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 773.48,548.17 A 300,300 0 0 1 670.96,689.28 L 592.55,585.59 A 170,170 0 0 0 650.64,505.63 Z" fill="#008300" opacity="0.92"/>
+  <circle cx="680.1" cy="588.1" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="680.1" y="594.1" text-anchor="middle" font-size="16" font-weight="700" fill="#008300">4</text>
+  <text x="765.1" y="649.8" text-anchor="start" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="765.1" dy="0">Ciberseguridad</tspan></text>
+  <line x1="744.0" y1="634.6" x2="765.1" y2="649.8" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 661.64,696.05 A 300,300 0 0 1 495.76,749.94 L 493.26,619.97 A 170,170 0 0 0 587.26,589.43 Z" fill="#5fae1b" opacity="0.92"/>
+  <circle cx="562.6" cy="673.5" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="562.6" y="679.5" text-anchor="middle" font-size="16" font-weight="700" fill="#5fae1b">5</text>
+  <text x="595.1" y="765.4" text-anchor="start" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="595.1" dy="0">Proyectos y</tspan><tspan x="595.1" dy="16">Contratos</tspan></text>
+  <line x1="587.0" y1="748.6" x2="595.1" y2="773.4" stroke="#c3c2b7" stroke-width="1.2"/>
+    <path d="M 484.24,749.94 A 300,300 0 0 1 318.36,696.05 L 392.74,589.43 A 170,170 0 0 0 486.74,619.97 Z" fill="#eda100" opacity="0.92"/>
+  <circle cx="417.4" cy="673.5" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="417.4" y="679.5" text-anchor="middle" font-size="16" font-weight="700" fill="#eda100">6</text>
+  <text x="384.9" y="773.4" text-anchor="end" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="384.9" dy="0">Procesos de TI</tspan></text>
+  <line x1="393.0" y1="748.6" x2="384.9" y2="773.4" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 309.04,689.28 A 300,300 0 0 1 206.52,548.17 L 329.36,505.63 A 170,170 0 0 0 387.45,585.59 Z" fill="#eb6834" opacity="0.92"/>
+  <circle cx="299.9" cy="588.1" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="299.9" y="594.1" text-anchor="middle" font-size="16" font-weight="700" fill="#eb6834">7</text>
+  <text x="214.9" y="649.8" text-anchor="end" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="214.9" dy="0">Presupuesto</tspan></text>
+  <line x1="236.0" y1="634.6" x2="214.9" y2="649.8" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 202.96,537.21 A 300,300 0 0 1 202.96,362.79 L 327.34,400.58 A 170,170 0 0 0 327.34,499.42 Z" fill="#e34948" opacity="0.92"/>
+  <circle cx="255.0" cy="450.0" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="255.0" y="456.0" text-anchor="middle" font-size="16" font-weight="700" fill="#e34948">8</text>
+  <text x="150.0" y="450.0" text-anchor="end" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="150.0" dy="0">Talento Humano</tspan></text>
+  <line x1="176.0" y1="450.0" x2="150.0" y2="450.0" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 206.52,351.83 A 300,300 0 0 1 309.04,210.72 L 387.45,314.41 A 170,170 0 0 0 329.36,394.37 Z" fill="#c23b8e" opacity="0.92"/>
+  <circle cx="299.9" cy="311.9" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="299.9" y="317.9" text-anchor="middle" font-size="16" font-weight="700" fill="#c23b8e">9</text>
+  <text x="214.9" y="250.2" text-anchor="end" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="214.9" dy="0">Madurez Digital</tspan></text>
+  <line x1="236.0" y1="265.4" x2="214.9" y2="250.2" stroke="#c3c2b7" stroke-width="1.2"/>
+  <path d="M 318.36,203.95 A 300,300 0 0 1 484.24,150.06 L 486.74,280.03 A 170,170 0 0 0 392.74,310.57 Z" fill="#7a4ac2" opacity="0.92"/>
+  <circle cx="417.4" cy="226.5" r="17" fill="#ffffff" opacity="0.95"/>
+  <text x="417.4" y="232.5" text-anchor="middle" font-size="16" font-weight="700" fill="#7a4ac2">10</text>
+  <text x="384.9" y="118.6" text-anchor="end" font-size="14.5" font-weight="600" fill="#33322f"><tspan x="384.9" dy="0">Presentar y</tspan><tspan x="384.9" dy="16">Priorizar</tspan></text>
+  <line x1="393.0" y1="151.4" x2="384.9" y2="126.6" stroke="#c3c2b7" stroke-width="1.2"/>
+  <circle cx="490.0" cy="450.0" r="156" fill="#ffffff" stroke="#e1e0d9" stroke-width="2"/>
+  <text x="490.0" y="440.0" text-anchor="middle" font-size="15" font-weight="700" fill="#4a3aa7" letter-spacing="0.5">DIAGNÓSTICO</text>
+  <text x="490.0" y="466.0" text-anchor="middle" font-size="30" font-weight="800" fill="#0b0b0b">360°</text>
+  <text x="490.0" y="490.0" text-anchor="middle" font-size="11.5" fill="#898781">Conocer · Evaluar · Priorizar</text>
+  <text x="490.0" y="876" text-anchor="middle" font-size="12" fill="#898781">Ver FRAMEWORK.md, Sección 0.1 — qué tanto de cada frente cubre el Diagnóstico 360 de KPS</text>
+</svg>
