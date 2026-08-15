@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.6.0]
+
+### Agregado
+
+- Sección 0.1 (nueva): relación entre el Diagnóstico 360 de KPS y una metodología más amplia de diagnóstico 360° para transformación de TI (los diez frentes que recorrería un Director de TI al llegar a una organización: Escuchar, Infraestructura, Aplicaciones, Ciberseguridad, Proyectos y Contratos, Procesos de TI, Presupuesto, Talento Humano, Madurez Digital, Presentar y Priorizar). Incluye tabla de mapeo explícito de qué frentes cubre el Diagnóstico 360 de KPS (parcial o totalmente) y cuáles quedan fuera de alcance a propósito, para dejar claro que KPS diagnostica la capa de flujo de trabajo, no la función de TI completa.
+
 ## [1.5.0]
 
 ### Agregado
