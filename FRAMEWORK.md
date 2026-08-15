@@ -1,7 +1,6 @@
 # KPS — Kanban de Portafolio con SAFe
 
-**Versión 1.5.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
-
+**Versión 1.6.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
 > Licencia: CC BY-SA 4.0 — puedes usar, adaptar y redistribuir este framework, incluso comercialmente, siempre que des crédito y mantengas las adaptaciones bajo la misma licencia. Ver [`LICENSE`](./LICENSE).
 
 ## Resumen ejecutivo
@@ -35,6 +34,29 @@ El diagnóstico 360 revisa cinco ángulos, en este orden:
 **El resultado de este diagnóstico no es una opinión, es un inventario con números:** cuántas personas concentran cuánto porcentaje del trabajo activo, cuántas iniciativas están de hecho congeladas, cuántos PRs llevan cuánto tiempo abiertos, y si la capacidad de QA existe donde se supone que existe. Esos números son los que después calibran cada pieza del framework (el límite de WIP del punto 2 de los pilares, el límite de Expedite simultáneos, el piso de capacidad por iniciativa) — sin este paso, cualquier número que se elija es una suposición, no una calibración.
 
 Solo después de completar este diagnóstico se avanza al Paso 1 de la [Hoja de ruta de implementación](#11-hoja-de-ruta-de-implementación).
+
+### 0.1 Relación con el Diagnóstico 360° de transformación de TI (alcance más amplio)
+
+El Diagnóstico 360 de esta sección es una versión **especializada y acotada** de una metodología más amplia: la que seguiría un Director de TI al llegar a una organización, para evaluar toda la función de tecnología antes de decidir nada. Esa metodología recorre diez frentes — Escuchar, Infraestructura, Aplicaciones, Ciberseguridad, Proyectos y Contratos, Procesos de TI, Presupuesto, Talento Humano, Madurez Digital, y Presentar y Priorizar — detallados en la tabla siguiente, junto con qué tanto de cada uno cubre el Diagnóstico 360 de KPS (los cinco ángulos de la sección anterior):
+
+![Los diez frentes del Diagnóstico 360° de TI](./docs/diagnostico-360-frentes.svg)
+
+| # | Frente (diagnóstico 360° de TI, alcance completo) | Qué revisa | ¿Lo cubre el Diagnóstico 360 de KPS? |
+|---|---|---|---|
+| 1 | Escuchar | Reunirse con Alta Dirección, líderes de negocio, usuarios clave y el equipo de TI, escuchando antes de concluir. | No — KPS asume que ya existe mandato para instalar el framework; no reemplaza las entrevistas iniciales con stakeholders. |
+| 2 | Infraestructura | Servidores, redes, comunicaciones, centros de datos, nube, continuidad y estado de activos tecnológicos. | No — fuera de alcance por completo. |
+| 3 | Aplicaciones | Qué sistemas generan valor, cuáles presentan riesgos, duplicidades, o necesitan evolucionar. | No — fuera de alcance por completo. |
+| 4 | Ciberseguridad | Vulnerabilidades, accesos, respaldos, continuidad, gestión de incidentes y madurez de seguridad. | No — fuera de alcance por completo. |
+| 5 | Proyectos y Contratos | Alineación estratégica, estado de proyectos, contratos vigentes, riesgos operativos, financieros y legales. | Parcial — solo el estado real de las iniciativas (punto 3 del Diagnóstico 360 de KPS); no cubre contratos ni riesgos financieros o legales. |
+| 6 | Procesos de TI | Gestión de incidencias, cambios, problemas, activos, continuidad, niveles de servicio y gobierno de TI. | Parcial — solo el flujo de trabajo y de PRs (puntos 2 y 4 del Diagnóstico 360 de KPS); no cubre incidencias, cambios ni activos como disciplina ITSM completa. |
+| 7 | Presupuesto | Inversión actual, su distribución, y el valor que genera cada gasto para la organización. | No, pero relacionado — KPS trata el presupuesto por separado, en la Sección 12, no como parte del diagnóstico inicial. |
+| 8 | Talento Humano | Competencias, fortalezas, brechas y oportunidades de desarrollo del equipo. | Parcial — solo la carga de trabajo real por persona (punto 1 del Diagnóstico 360 de KPS); no cubre competencias, brechas ni desarrollo. |
+| 9 | Madurez Digital | Nivel de digitalización, automatización, uso de datos, innovación, cultura digital y alineación estratégica. | No — fuera de alcance por completo. |
+| 10 | Presentar y Priorizar | Informe ejecutivo con evidencia, indicadores, riesgos, fortalezas, oportunidades y una hoja de ruta priorizada. | Sí — el inventario con números al final del Diagnóstico 360 de KPS cumple el mismo propósito: alimenta directamente el Paso 0 de la hoja de ruta. |
+
+KPS no intenta cubrir los diez frentes — eso sería un framework de gestión integral de TI, no uno de gestión de flujo de trabajo. El Diagnóstico 360 de KPS es la instanciación operativa de una porción específica de esa metodología, principalmente los frentes 5, 6 y 8; el resto queda deliberadamente fuera de alcance.
+
+**Cuándo usar cada uno:** si el objetivo es instalar KPS sobre un equipo o portafolio que ya tiene sponsor y mandato, el Diagnóstico 360 de la sección anterior basta. Si el objetivo es una transformación de TI completa —evaluar toda la función de tecnología de una organización, no solo cómo fluye el trabajo dentro de un equipo—, los cinco ángulos de KPS son insuficientes por diseño, y hace falta recorrer los diez frentes completos antes (o en paralelo) de decidir si KPS es siquiera la herramienta correcta para la capa de flujo de trabajo.
 
 ---
 
