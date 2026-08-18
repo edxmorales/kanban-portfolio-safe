@@ -27,9 +27,13 @@ Lee [`FRAMEWORK.md`](./FRAMEWORK.md) — el documento completo, con:
 - [Caso 1: Diagnóstico 360, ángulo de seguridad e infraestructura](./docs/caso-aplicacion-01-diagnostico-seguridad.md) (anonimizado)
 - [Propuesta de piloto 1: de esos hallazgos al primer backlog KPS](./docs/propuesta-piloto-01.md) (anonimizado)
 
+## Plantillas
+
+- [Plan de implementación y seguimiento de proyectos](./docs/plan-implementacion.xlsx) — hoja de ruta paso a paso más una hoja de seguimiento de proyectos con prioridad calculada automáticamente. En lenguaje de negocio, sin mencionar herramientas, lista para copiar y adaptar.
+
 ## Estado
 
-**Versión 1.7.2** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
+**Versión 1.8.0** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
 
 Este framework está pensado para crecer con el uso real en distintos equipos, no para quedar congelado en su primera versión. Si lo aplicas y encuentras algo que no funciona, que falta, o que se puede explicar mejor, ver [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 

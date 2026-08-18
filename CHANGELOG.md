@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.8.0]
+
+### Agregado
+
+- `docs/plan-implementacion.xlsx` (nueva plantilla): hoja de ruta de implementación de 10 pasos, más una hoja nueva de **seguimiento de proyectos** — el registro de cada solicitud real, con una prioridad que se calcula sola combinando impacto de negocio y tamaño del esfuerzo (matriz de prioridad, sin fórmulas ocultas). Incluye una hoja "Cómo usar" y un panel "Resumen" que se actualiza solo a partir de las otras dos hojas. Cumple el pendiente de plantillas concretas declarado desde la versión 1.0.0. Sin mencionar herramientas de gestión de trabajo específicas — en lenguaje de negocio, lista para copiar y adaptar por cualquier equipo.
+
 ## [1.7.2]
 
 ### Corregido
