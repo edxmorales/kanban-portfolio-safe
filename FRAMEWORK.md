@@ -1,6 +1,6 @@
 # KPS — Kanban de Portafolio con SAFe
 
-**Versión 1.12.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
+**Versión 1.13.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
 
 > Licencia: CC BY-SA 4.0 — puedes usar, adaptar y redistribuir este framework, incluso comercialmente, siempre que des crédito y mantengas las adaptaciones bajo la misma licencia. Ver [`LICENSE`](./LICENSE).
 

@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.13.0]
+
+### Agregado
+
+- `docs/plan-implementacion.xlsx`: la hoja "Seguimiento de proyectos" agrega la columna "Responsable de QA (para indicadores de WIP)" junto a la de desarrollo (renombrada "Responsable de desarrollo (para indicadores de WIP)"). La tabla de capacidad por persona en "Resumen" (sección 9.2) ahora suma los ítems "En curso" tanto de la columna de desarrollo como de la de QA, para que la carga de QA también quede visible en el índice de concentración y el % de cumplimiento de WIP. La matriz de prioridad se recorrió de las columnas S–V a T–W para hacerle espacio a la columna nueva; la fórmula de "Prioridad" se actualizó en consecuencia. 50 fórmulas verificadas sin errores.
+
 ## [1.12.0]
 
 ### Agregado
