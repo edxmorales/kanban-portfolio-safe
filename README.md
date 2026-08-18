@@ -29,7 +29,7 @@ Lee [`FRAMEWORK.md`](./FRAMEWORK.md) — el documento completo, con:
 
 ## Plantillas
 
-- [Plan de implementación y seguimiento de proyectos](./docs/plan-implementacion.xlsx) — hoja de ruta paso a paso más una hoja de seguimiento de proyectos con prioridad calculada automáticamente. En lenguaje de negocio, sin mencionar herramientas, lista para copiar y adaptar.
+- 📥 [Plan de implementación y seguimiento de proyectos](./docs/plan-implementacion.xlsx) (Excel, descargar) — hoja de ruta paso a paso más una hoja de seguimiento de proyectos con prioridad calculada automáticamente. En lenguaje de negocio, sin mencionar herramientas, lista para copiar y adaptar. GitHub no la previsualiza en el navegador por ser un archivo de Excel: haz clic en el enlace y luego en "Download raw file" (o el ícono de descarga) para abrirla en Excel, LibreOffice o Google Sheets.
 
 ## Estado
 
