@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.7.1]
+
+### Corregido
+
+- Tabla de la sección 0.1: los frentes 2 (Infraestructura), 4 (Ciberseguridad) y 9 (Madurez Digital) pasan de "fuera de alcance por completo" a "parcial, de forma indirecta" — el caso de aplicación 1 mostró que, aunque KPS no diagnostica infraestructura ni seguridad, sus hallazgos sí se integran directamente al backlog priorizado de KPS una vez producidos por otro medio; y el frente 9 se cubre parcialmente por la Sección 10 (apalancamiento con IA). Se distingue explícitamente "el diagnóstico en sí" (fuera de alcance) de "la integración de sus hallazgos" (parcial).
+
 ## [1.7.0]
 
 ### Agregado
