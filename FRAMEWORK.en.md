@@ -1,10 +1,53 @@
 # KPS — Kanban Portfolio with SAFe
 
-**Version 1.9.0** · An open framework for teams that split people across several projects, technical debt, support, and improvements, with priorities that change every week.
+**Version 1.9.1** · An open framework for teams that split people across several projects, technical debt, support, and improvements, with priorities that change every week.
 
 > License: CC BY-SA 4.0 — you can use, adapt, and redistribute this framework, even commercially, as long as you give credit and keep any adaptations under the same license. See [`LICENSE`](./LICENSE).
 
 > 🇪🇸 ¿Prefieres leerlo en español? Ver [`FRAMEWORK.md`](./FRAMEWORK.md).
+
+## Table of contents
+
+- [Executive summary](#executive-summary)
+- [0. 360 Diagnostic: the mandatory starting point](#0-360-diagnostic-the-mandatory-starting-point)
+  - [0.1 Relationship to the broader IT 360° transformation diagnostic](#01-relationship-to-the-broader-it-360-transformation-diagnostic)
+- [1. The problem it solves](#1-the-problem-it-solves)
+- [2. Foundations: why Kanban + SAFe](#2-foundations-why-kanban--safe)
+- [3. The framework's pillars](#3-the-frameworks-pillars)
+- [4. Original mechanics (what neither Kanban nor SAFe solve on their own)](#4-original-mechanics-what-neither-kanban-nor-safe-solve-on-their-own)
+- [5. Roles and governance](#5-roles-and-governance)
+  - [5.1 Escalation and disagreements between roles](#51-escalation-and-disagreements-between-roles)
+- [6. How teams are managed](#6-how-teams-are-managed)
+  - [6.1 When to use freelancers and when not to: project work vs. business-as-usual](#61-when-to-use-freelancers-and-when-not-to-project-work-vs-business-as-usual)
+  - [6.2 Dependencies between value streams](#62-dependencies-between-value-streams)
+  - [6.3 Onboarding: when someone new joins or rotates internally](#63-onboarding-when-someone-new-joins-or-rotates-internally)
+- [7. How QA fits in without becoming a bottleneck](#7-how-qa-fits-in-without-becoming-a-bottleneck)
+- [8. The infrastructure flow, end to end](#8-the-infrastructure-flow-end-to-end)
+- [9. Measurement system](#9-measurement-system)
+  - [9.1 Flow indicators (efficiency)](#91-flow-indicators-efficiency)
+  - [9.2 Capacity and load indicators](#92-capacity-and-load-indicators)
+  - [9.3 Interruption and cost indicators](#93-interruption-and-cost-indicators)
+  - [9.4 Technical debt indicators](#94-technical-debt-indicators)
+  - [9.5 Quality indicators](#95-quality-indicators)
+  - [9.6 Predictability indicators](#96-predictability-indicators)
+  - [9.7 Composite efficiency score](#97-composite-efficiency-score)
+  - [9.8 Measurement cadence](#98-measurement-cadence)
+  - [9.9 Indicators to validate the pilot](#99-indicators-to-validate-the-pilot)
+  - [9.10 Lean lens: eliminating waste and cost, not just speed](#910-lean-lens-eliminating-waste-and-cost-not-just-speed)
+- [10. Leveraging artificial intelligence](#10-leveraging-artificial-intelligence)
+- [11. Implementation roadmap](#11-implementation-roadmap)
+- [12. Budget and staffing: operating cost efficiency](#12-budget-and-staffing-operating-cost-efficiency)
+  - [12.1 Two cost categories competing for the same budget](#121-two-cost-categories-competing-for-the-same-budget)
+  - [12.2 Staffing cost: internal vs. freelance](#122-staffing-cost-internal-vs-freelance)
+  - [12.3 Minimum operating budget categories to track](#123-minimum-operating-budget-categories-to-track)
+  - [12.4 How budget connects to portfolio capacity](#124-how-budget-connects-to-portfolio-capacity)
+  - [12.5 Cost efficiency indicators (extension of section 9)](#125-cost-efficiency-indicators-extension-of-section-9)
+  - [12.6 Cadence](#126-cadence)
+- [13. How this framework evolves](#13-how-this-framework-evolves)
+- [Appendix: SAFe in depth](#appendix-safe-in-depth)
+- [Appendix: glossary of acronyms and terms](#appendix-glossary-of-acronyms-and-terms)
+
+---
 
 ## Executive summary
 

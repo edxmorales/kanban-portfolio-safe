@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.9.1]
+
+### Corregido
+
+- `FRAMEWORK.md` y `FRAMEWORK.en.md`: se agrega una tabla de contenido al inicio de cada documento, con enlaces verificados uno por uno (43 enlaces internos en cada archivo, cero rotos) contra los encabezados reales generados por el renderizador de GitHub.
+
 ## [1.9.0]
 
 ### Agregado

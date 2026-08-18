@@ -1,10 +1,53 @@
 # KPS — Kanban de Portafolio con SAFe
 
-**Versión 1.9.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
+**Versión 1.9.1** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
 
 > Licencia: CC BY-SA 4.0 — puedes usar, adaptar y redistribuir este framework, incluso comercialmente, siempre que des crédito y mantengas las adaptaciones bajo la misma licencia. Ver [`LICENSE`](./LICENSE).
 
 > 🇬🇧 Reading in English? See [`FRAMEWORK.en.md`](./FRAMEWORK.en.md).
+
+## Tabla de contenido
+
+- [Resumen ejecutivo](#resumen-ejecutivo)
+- [0. Diagnóstico 360: el punto de partida obligatorio](#0-diagnóstico-360-el-punto-de-partida-obligatorio)
+  - [0.1 Relación con el Diagnóstico 360° de transformación de TI (alcance más amplio)](#01-relación-con-el-diagnóstico-360-de-transformación-de-ti-alcance-más-amplio)
+- [1. El problema que resuelve](#1-el-problema-que-resuelve)
+- [2. Fundamentos: por qué Kanban + SAFe](#2-fundamentos-por-qué-kanban--safe)
+- [3. Los pilares del framework](#3-los-pilares-del-framework)
+- [4. Mecánicas propias (lo que ni Kanban ni SAFe traen resuelto)](#4-mecánicas-propias-lo-que-ni-kanban-ni-safe-traen-resuelto)
+- [5. Roles y gobierno](#5-roles-y-gobierno)
+  - [5.1 Escalamiento y desacuerdos entre roles](#51-escalamiento-y-desacuerdos-entre-roles)
+- [6. Cómo se gestionan los equipos](#6-cómo-se-gestionan-los-equipos)
+  - [6.1 Cuándo usar freelances y cuándo no: proyecto vs mantenimiento del negocio](#61-cuándo-usar-freelances-y-cuándo-no-proyecto-vs-mantenimiento-del-negocio)
+  - [6.2 Dependencias entre flujos de valor](#62-dependencias-entre-flujos-de-valor)
+  - [6.3 Onboarding: cuando alguien nuevo entra o rota internamente](#63-onboarding-cuando-alguien-nuevo-entra-o-rota-internamente)
+- [7. Cómo entra QA sin convertirse en cuello de botella](#7-cómo-entra-qa-sin-convertirse-en-cuello-de-botella)
+- [8. El flujo de infraestructura, de principio a fin](#8-el-flujo-de-infraestructura-de-principio-a-fin)
+- [9. Sistema de medición](#9-sistema-de-medición)
+  - [9.1 Indicadores de flujo (eficiencia)](#91-indicadores-de-flujo-eficiencia)
+  - [9.2 Indicadores de capacidad y carga](#92-indicadores-de-capacidad-y-carga)
+  - [9.3 Indicadores de interrupción y costo](#93-indicadores-de-interrupción-y-costo)
+  - [9.4 Indicadores de deuda técnica](#94-indicadores-de-deuda-técnica)
+  - [9.5 Indicadores de calidad](#95-indicadores-de-calidad)
+  - [9.6 Indicadores de predictibilidad](#96-indicadores-de-predictibilidad)
+  - [9.7 Puntaje compuesto de eficiencia](#97-puntaje-compuesto-de-eficiencia)
+  - [9.8 Cadencia de medición](#98-cadencia-de-medición)
+  - [9.9 Indicadores para validar el piloto](#99-indicadores-para-validar-el-piloto)
+  - [9.10 Enfoque Lean: eliminación de desperdicio y costo, no solo velocidad](#910-enfoque-lean-eliminación-de-desperdicio-y-costo-no-solo-velocidad)
+- [10. Apalancamiento con inteligencia artificial](#10-apalancamiento-con-inteligencia-artificial)
+- [11. Hoja de ruta de implementación](#11-hoja-de-ruta-de-implementación)
+- [12. Presupuesto y dotación: eficiencia de costos de la operación](#12-presupuesto-y-dotación-eficiencia-de-costos-de-la-operación)
+  - [12.1 Dos categorías de costo que compiten por el mismo presupuesto](#121-dos-categorías-de-costo-que-compiten-por-el-mismo-presupuesto)
+  - [12.2 Costo de dotación: interno vs. freelance](#122-costo-de-dotación-interno-vs-freelance)
+  - [12.3 Categorías mínimas de presupuesto operativo a trackear](#123-categorías-mínimas-de-presupuesto-operativo-a-trackear)
+  - [12.4 Cómo el presupuesto se conecta con la capacidad de portafolio](#124-cómo-el-presupuesto-se-conecta-con-la-capacidad-de-portafolio)
+  - [12.5 Indicadores de eficiencia de costo (extensión de la sección 9)](#125-indicadores-de-eficiencia-de-costo-extensión-de-la-sección-9)
+  - [12.6 Cadencia](#126-cadencia)
+- [13. Cómo evoluciona este framework](#13-cómo-evoluciona-este-framework)
+- [Anexo: SAFe en profundidad](#anexo-safe-en-profundidad)
+- [Anexo: glosario de siglas y términos](#anexo-glosario-de-siglas-y-términos)
+
+---
 
 ## Resumen ejecutivo
 
