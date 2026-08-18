@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.7.2]
+
+### Corregido
+
+- Tabla de la sección 0.1: el frente 3 (Aplicaciones) pasa de "fuera de alcance por completo" a "parcial, de forma indirecta" — si la organización ya tiene un inventario interno de aplicaciones, servicios, desarrollos propios y herramientas operativas, ese inventario alimenta directamente cómo se agrupan los flujos de valor de KPS (pilar 5). Se ajusta también el párrafo resumen para reflejar que solo el frente 1 (Escuchar) queda fuera de alcance por completo.
+
 ## [1.7.1]
 
 ### Corregido

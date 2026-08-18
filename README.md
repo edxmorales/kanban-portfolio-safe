@@ -29,7 +29,7 @@ Lee [`FRAMEWORK.md`](./FRAMEWORK.md) — el documento completo, con:
 
 ## Estado
 
-**Versión 1.7.1** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
+**Versión 1.7.2** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
 
 Este framework está pensado para crecer con el uso real en distintos equipos, no para quedar congelado en su primera versión. Si lo aplicas y encuentras algo que no funciona, que falta, o que se puede explicar mejor, ver [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
