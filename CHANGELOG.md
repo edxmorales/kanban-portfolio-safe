@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.11.0]
+
+### Agregado
+
+- `docs/plan-implementacion.xlsx`: la hoja "Seguimiento de proyectos" suma tres columnas — "Fecha real de inicio de desarrollo", "Fecha real de cierre" y "Responsable principal (para indicadores de WIP)" — que alimentan una nueva sección de indicadores en la hoja "Resumen": Lead time y Cycle time promedio, Eficiencia de flujo, % de entrega a tiempo (Fecha fija), y una tabla de capacidad por persona con Tope de WIP editable que calcula el Índice de concentración y el % de cumplimiento de WIP (sección 9 del framework). La matriz de prioridad se recorrió de las columnas P–S a S–V para hacerle espacio a las columnas nuevas; la fórmula de "Prioridad" se actualizó en consecuencia. 49 fórmulas verificadas sin errores.
+
 ## [1.10.0]
 
 ### Agregado
