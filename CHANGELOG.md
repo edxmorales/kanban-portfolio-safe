@@ -2,6 +2,13 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.12.0]
+
+### Agregado
+
+- `docs/plan-implementacion.xlsx`: nueva hoja "Roles y gobierno" (sección 5 del framework) — un registro de quién tiene cada rol de gobierno y quién es su respaldo nombrado. Trae los 7 roles ya listados, con una fila de "Líder de Flujo de Valor" por cada flujo de valor de ejemplo (los mismos que usa "Seguimiento de proyectos"), y columnas "Titular"/"Respaldo" en amarillo para completar con nombres reales. "Cómo usar" se actualizó para explicarla.
+- `docs/plan-implementacion.xlsx`: la columna "Estado" de "Seguimiento de proyectos" suma el valor "Cancelado", con su conteo correspondiente en el panel "Resumen".
+
 ## [1.11.0]
 
 ### Agregado
