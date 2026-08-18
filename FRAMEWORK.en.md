@@ -1,6 +1,6 @@
 # KPS — Kanban Portfolio with SAFe
 
-**Version 1.9.1** · An open framework for teams that split people across several projects, technical debt, support, and improvements, with priorities that change every week.
+**Version 1.10.0** · An open framework for teams that split people across several projects, technical debt, support, and improvements, with priorities that change every week.
 
 > License: CC BY-SA 4.0 — you can use, adapt, and redistribute this framework, even commercially, as long as you give credit and keep any adaptations under the same license. See [`LICENSE`](./LICENSE).
 
@@ -21,6 +21,7 @@
   - [6.1 When to use freelancers and when not to: project work vs. business-as-usual](#61-when-to-use-freelancers-and-when-not-to-project-work-vs-business-as-usual)
   - [6.2 Dependencies between value streams](#62-dependencies-between-value-streams)
   - [6.3 Onboarding: when someone new joins or rotates internally](#63-onboarding-when-someone-new-joins-or-rotates-internally)
+  - [6.4 Cross-market initiatives with independent execution](#64-cross-market-initiatives-with-independent-execution)
 - [7. How QA fits in without becoming a bottleneck](#7-how-qa-fits-in-without-becoming-a-bottleneck)
 - [8. The infrastructure flow, end to end](#8-the-infrastructure-flow-end-to-end)
 - [9. Measurement system](#9-measurement-system)
@@ -218,6 +219,20 @@ Section 6.1 already covers what happens when a freelancer's contract ends. This 
 
 - Before leaving their current stream, they document what only they know about the work in progress they're leaving behind — the same Definition of Done principle applied to freelancers in 6.1, extended here to internal rotation as well, not just to contract closures.
 - The Concentration Index (9.2) gets reviewed before and after every rotation: moving the person who carries the most WIP without transferring their knowledge first doesn't fix the bus factor, it just moves it to another value stream.
+
+### 6.4 Cross-market initiatives with independent execution
+
+It's one thing for a value stream to depend on another (section 6.2), and a different thing for the same capability — the same initiative, the same build — to need deploying across several markets, segments, or clients that can move forward, get blocked, or finish without depending on each other. Treating this as a single aggregated card creates a concrete problem: the moment one market gets blocked, the whole card shows as "Blocked" even though the rest is already in production — hiding real progress and risking that the assigned person stays stuck on a stalled item instead of freeing up for the market that can actually move.
+
+**Rule:** when a cross-market initiative has markets that can move independently through the workflow, each market is its own card in the single capacity view (pillar 1) — never one card that aggregates the status of all of them.
+
+- **A shared base name identifies the family** (e.g., "Initiative — Market"), so the initiative doesn't lose its identity as a whole even though each market has its own card.
+- **A blocked market never occupies the individual WIP cap (pillar 2) of the person assigned to another one.** If Market A gets blocked, that person is free to pick up Market B from the same family (or any other item within their value stream) while A's block gets resolved.
+- **The criterion for deciding whether to split into per-market cards**, instead of leaving it as one: can the markets end up in a different state from each other at some point in the work (one certified and one not, one with its own local regulation, one with a different deadline)? If yes, split it. If the markets always move together, with the same team and the same date (built once, deployed to all of them at the same time), a single card is enough — its Size simply reflects that it covers several markets at once.
+- **When to split, and when not yet:** while the initiative is still in validation (POC, proof of concept, internal pilot) and it hasn't been decided whether it will launch, or in which markets, it stays as a single card — splitting it before that decision would multiply rows over something that isn't even confirmed to exist yet. The split happens the moment the initiative moves from "being evaluated" to "approved and execution starts," because that's exactly when the markets can start diverging in status (one starts, another doesn't, one gets blocked). Before that point, the item lives in whatever class of service fits a POC (usually Intangible or Standard), not yet as a cross-market initiative.
+- **The initiative as a whole is considered complete once all of its markets reach "Completed,"** not before — this gets checked by filtering on the base name in the single capacity view, with no need for an extra card to represent it.
+
+**Tracking indicator (extends section 9.1):** % of markets at "Completed" out of the total target markets, per cross-market initiative — so the composite status score (9.7) doesn't get muddied by an isolated block in a single market while the rest of the initiative is moving along normally.
 
 ## 7. How QA fits in without becoming a bottleneck
 

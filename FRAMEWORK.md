@@ -1,6 +1,6 @@
 # KPS — Kanban de Portafolio con SAFe
 
-**Versión 1.9.1** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
+**Versión 1.10.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
 
 > Licencia: CC BY-SA 4.0 — puedes usar, adaptar y redistribuir este framework, incluso comercialmente, siempre que des crédito y mantengas las adaptaciones bajo la misma licencia. Ver [`LICENSE`](./LICENSE).
 
@@ -21,6 +21,7 @@
   - [6.1 Cuándo usar freelances y cuándo no: proyecto vs mantenimiento del negocio](#61-cuándo-usar-freelances-y-cuándo-no-proyecto-vs-mantenimiento-del-negocio)
   - [6.2 Dependencias entre flujos de valor](#62-dependencias-entre-flujos-de-valor)
   - [6.3 Onboarding: cuando alguien nuevo entra o rota internamente](#63-onboarding-cuando-alguien-nuevo-entra-o-rota-internamente)
+  - [6.4 Iniciativas transversales con ejecución independiente por mercado](#64-iniciativas-transversales-con-ejecución-independiente-por-mercado)
 - [7. Cómo entra QA sin convertirse en cuello de botella](#7-cómo-entra-qa-sin-convertirse-en-cuello-de-botella)
 - [8. El flujo de infraestructura, de principio a fin](#8-el-flujo-de-infraestructura-de-principio-a-fin)
 - [9. Sistema de medición](#9-sistema-de-medición)
@@ -218,6 +219,20 @@ La sección 6.1 ya cubre qué pasa cuando un freelance cierra su contrato. Esta 
 
 - Antes de salir de su flujo actual, documenta lo que solo ella sabe del trabajo en curso que deja — el mismo principio de la Definición de Hecho aplicado al freelance en 6.1, extendido también a la rotación interna, no solo a los cierres de contrato.
 - El Índice de Concentración (9.2) se revisa antes y después de cada rotación: mover a la persona que más WIP concentra sin transferir su conocimiento primero no resuelve el bus factor, solo lo traslada a otro flujo de valor.
+
+### 6.4 Iniciativas transversales con ejecución independiente por mercado
+
+Es distinto que un flujo de valor dependa de otro (sección 6.2) a que una misma capacidad — la misma iniciativa, el mismo build — deba desplegarse en varios mercados, segmentos o clientes que pueden avanzar, bloquearse o completarse sin depender entre sí. Tratar esto como una sola tarjeta agregada produce un problema concreto: en el momento en que un mercado se bloquea, la tarjeta completa se ve "Bloqueada" aunque el resto ya esté en producción, lo que oculta el avance real y arriesga que la persona asignada quede retenida en un ítem parado en vez de liberarse hacia el mercado que sí puede avanzar.
+
+**Regla:** cuando una iniciativa transversal tiene mercados que pueden moverse de forma independiente por el flujo de trabajo, cada mercado es su propia tarjeta en la vista única de capacidad (pilar 1) — nunca una sola tarjeta que agregue el estado de todos.
+
+- **Un nombre base compartido identifica la familia** (ej. "Iniciativa — Mercado"), para que la iniciativa no se pierda de vista como conjunto aunque cada mercado tenga su propia tarjeta.
+- **El bloqueo de un mercado nunca ocupa el tope de WIP individual (pilar 2) de la persona asignada a otro.** Si el mercado A se bloquea, la persona queda libre para tomar el mercado B de la misma familia (o cualquier otro ítem dentro de su flujo de valor) mientras el bloqueo de A se resuelve.
+- **El criterio para decidir si conviene dividir en tarjetas por mercado**, y no dejarlo en una sola: ¿los mercados pueden tener un estado distinto entre sí en algún momento del trabajo (uno certificado y otro no, uno con regulación local propia, uno con fecha límite distinta)? Si la respuesta es sí, se divide. Si los mercados siempre se mueven juntos, con el mismo equipo y la misma fecha (se construye una vez y se despliega a todos al mismo tiempo), una sola tarjeta es suficiente — el Tamaño de esa tarjeta simplemente refleja que cubre varios mercados a la vez.
+- **Cuándo dividir, y cuándo todavía no:** mientras la iniciativa sigue en validación (POC, prueba de concepto, piloto interno) y no se ha decidido si se lanza ni a qué mercados, se mantiene como una sola tarjeta — dividirla antes de esa decisión multiplicaría filas sobre algo que ni siquiera se sabe si va a existir. La división ocurre en el momento en que la iniciativa pasa de "se está evaluando" a "se aprueba y arranca la ejecución", porque es justo ahí cuando los mercados empiezan a poder tener estados distintos entre sí (uno arranca, otro no, uno se bloquea). Antes de ese punto, el ítem vive en la clase de servicio que le corresponda a una POC (normalmente Intangible o Estándar), no como iniciativa transversal todavía.
+- **La iniciativa como conjunto se considera completa cuando todos sus mercados llegan a "Completado"**, no antes — esto se verifica filtrando por el nombre base en la vista única de capacidad, sin necesitar una tarjeta adicional que la represente.
+
+**Indicador de seguimiento (extiende la sección 9.1):** % de mercados en "Completado" sobre el total de mercados objetivo, por iniciativa transversal — así el semáforo compuesto (9.7) no se ensucia por un bloqueo aislado en un solo mercado cuando el resto de la iniciativa avanza con normalidad.
 
 ## 7. Cómo entra QA sin convertirse en cuello de botella
 

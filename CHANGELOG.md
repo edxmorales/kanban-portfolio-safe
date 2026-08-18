@@ -2,6 +2,12 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.10.0]
+
+### Agregado
+
+- Sección 6.4 (nueva), en `FRAMEWORK.md` y `FRAMEWORK.en.md`: **Iniciativas transversales con ejecución independiente por mercado.** Resuelve un vacío que la sección 6.2 (dependencias entre flujos de valor) no cubría: una misma capacidad desplegada en varios mercados que pueden avanzar, bloquearse o completarse de forma independiente. Regla: una tarjeta por mercado, nunca una tarjeta agregada, para que un bloqueo puntual en un mercado no arrastre el estado visible de los demás ni retenga el WIP de la persona asignada. Incluye el criterio de cuándo dividir (al pasar de validación/POC a ejecución aprobada, no antes) y un indicador nuevo que extiende la sección 9.1 (% de mercados completados por iniciativa transversal). Se actualiza la Tabla de contenido / Table of contents de ambos documentos.
+
 ## [1.9.1]
 
 ### Corregido
