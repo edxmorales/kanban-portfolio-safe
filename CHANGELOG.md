@@ -2,6 +2,14 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.7.0]
+
+### Agregado
+
+- `docs/caso-aplicacion-01-diagnostico-seguridad.md` (nuevo): primer caso de aplicación real anonimizado del framework — cumple el pendiente declarado desde la versión 1.0.0 ("casos de estudio anonimizados de equipos que lo hayan aplicado"). Documenta el frente 4 (Ciberseguridad) del Diagnóstico 360° de TI de alcance amplio (sección 0.1) y cómo se relaciona con el Diagnóstico 360 propio de KPS.
+- `docs/propuesta-piloto-01.md` (nuevo): continuación del caso 1 — clasifica hallazgos reales de ese diagnóstico en clases de servicio de KPS, propone un flujo de valor de Plataforma e Infraestructura, los roles a nombrar (incluido el Representante de Valor de Negocio), y el criterio de éxito del piloto usando la línea base que el propio diagnóstico ya capturó.
+- Enlaces cruzados desde `README.md` hacia ambos documentos nuevos, en una sección "Casos de aplicación real".
+
 ## [1.6.0]
 
 ### Agregado

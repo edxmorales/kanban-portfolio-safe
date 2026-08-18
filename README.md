@@ -22,9 +22,15 @@ Lee [`FRAMEWORK.md`](./FRAMEWORK.md) — el documento completo, con:
 - Hoja de ruta de implementación paso a paso
 - Anexos: SAFe en profundidad y glosario de términos
 
+## Casos de aplicación real
+
+- [Caso 1: Diagnóstico 360, ángulo de seguridad e infraestructura](./docs/caso-aplicacion-01-diagnostico-seguridad.md) (anonimizado)
+- [Propuesta de piloto 1: de esos hallazgos al primer backlog KPS](./docs/propuesta-piloto-01.md) (anonimizado)
+
 ## Estado
 
-**Versión 1.6.0** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
+**Versión 1.7.0** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
+
 Este framework está pensado para crecer con el uso real en distintos equipos, no para quedar congelado en su primera versión. Si lo aplicas y encuentras algo que no funciona, que falta, o que se puede explicar mejor, ver [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ## Licencia
