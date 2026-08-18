@@ -1,5 +1,7 @@
 # KPS — Kanban de Portafolio con SAFe
 
+> 🇬🇧 Reading in English? See [`FRAMEWORK.en.md`](./FRAMEWORK.en.md) for the full framework document.
+
 ![Resumen del framework KPS](./docs/kps-framework-overview.svg)
 
 Un framework abierto de gestión de trabajo para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
@@ -33,7 +35,7 @@ Lee [`FRAMEWORK.md`](./FRAMEWORK.md) — el documento completo, con:
 
 ## Estado
 
-**Versión 1.8.0** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
+**Versión 1.9.0** — ver [`CHANGELOG.md`](./CHANGELOG.md) para el historial completo de cambios.
 
 Este framework está pensado para crecer con el uso real en distintos equipos, no para quedar congelado en su primera versión. Si lo aplicas y encuentras algo que no funciona, que falta, o que se puede explicar mejor, ver [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 

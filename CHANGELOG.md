@@ -2,6 +2,16 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.9.0]
+
+### Agregado
+
+- `FRAMEWORK.en.md` (nuevo): traducción completa al inglés de `FRAMEWORK.md`, con enlaces cruzados entre ambas versiones desde la cabecera de cada documento y desde `README.md`.
+
+### Corregido
+
+- `FRAMEWORK.md`: pasada de lenguaje en todo el documento para que se lea más fácil — oraciones más cortas, menos encadenamiento de guiones largos, sin cambiar ninguna regla, número de sección ni ancla interna (los enlaces desde los casos de aplicación y `README.md` siguen funcionando igual).
+
 ## [1.8.0]
 
 ### Agregado
