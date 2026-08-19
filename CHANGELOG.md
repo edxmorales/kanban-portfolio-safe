@@ -2,6 +2,15 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.14.0]
+
+### Agregado
+
+- `docs/plan-implementacion.xlsx`: la columna "Fase de desarrollo" de "Seguimiento de proyectos" suma el valor "En revisión de código / PR" (entre "En desarrollo" y "En pruebas de calidad"), para que un ítem detenido esperando revisor o merge se vea distinto de uno realmente en desarrollo activo.
+- `docs/plan-implementacion.xlsx`: nueva columna "Retrabajo (regresó de pruebas a desarrollo)" (Sí/No) en "Seguimiento de proyectos", con un nuevo indicador "% de ítems con retrabajo" en "Resumen" (sección 9.5 del framework).
+- `docs/plan-implementacion.xlsx`: "Línea de trabajo asignada", "Responsable", "Responsable de desarrollo" y "Responsable de QA" pasan de texto libre a combos desplegables, sourced de listas editables ya existentes en la plantilla ("Roles y gobierno" para flujos de valor, la tabla de capacidad de "Resumen" para personas) — para estandarizar cómo se escribe cada flujo y cada persona y evitar que el conteo de WIP se rompa por variantes de escritura.
+- `docs/plan-implementacion.xlsx`: la columna "Estado" de la hoja "Hoja de ruta" suma el valor "Cancelado", igual que en "Seguimiento de proyectos", para que ambas hojas usen las mismas opciones.
+
 ## [1.13.0]
 
 ### Agregado
