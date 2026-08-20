@@ -21,7 +21,7 @@ KPS usa versionado semántico (`MAJOR.MINOR.PATCH`):
 - **MINOR**: agrega una mecánica, rol o sección nueva sin romper lo anterior.
 - **PATCH**: corrige o aclara texto existente, sin cambiar el contenido de fondo.
 
-Cada versión publicada se registra en [`CHANGELOG.md`](./CHANGELOG.md) con la fecha, el tipo de cambio, y quién lo propuso.
+Cada versión publicada se registra en [`CHANGELOG.md`](./CHANGELOG.md), agrupada por tipo de cambio (Agregado/Corregido).
 
 ## Código de conducta
 

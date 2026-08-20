@@ -2,6 +2,13 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.14.1]
+
+### Corregido
+
+- `docs/caso-aplicacion-01-diagnostico-seguridad.md`: la cita de la sección 0.1 sobre el frente 4 (Ciberseguridad) decía que quedaba "fuera de alcance por completo", una redacción que la versión 1.7.1 ya había reemplazado en `FRAMEWORK.md` por una más matizada (el diagnóstico en sí fuera de alcance, pero sus hallazgos sí se integran). El caso de aplicación se actualiza para citar la redacción vigente y no contradecir la sección 0.1 actual.
+- `CONTRIBUTING.md`: la sección de versionado prometía que cada entrada del CHANGELOG incluye fecha y quién propuso el cambio, algo que ninguna entrada desde la 1.0.0 ha registrado en la práctica. Se ajusta el texto para reflejar lo que el CHANGELOG realmente documenta (agrupado por tipo de cambio).
+
 ## [1.14.0]
 
 ### Agregado
