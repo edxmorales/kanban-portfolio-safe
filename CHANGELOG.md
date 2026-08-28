@@ -2,6 +2,13 @@
 
 Todos los cambios notables de este framework se documentan aquí. El formato sigue versionado semántico (`MAJOR.MINOR.PATCH`), descrito en [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+## [1.15.0]
+
+### Agregado
+
+- `FRAMEWORK.md` y `FRAMEWORK.en.md`: cuatro subsecciones nuevas bajo la sección 10 (Apalancamiento con inteligencia artificial), que no existían — 10.1 Contexto vivo por flujo de valor (para personas y para agentes de IA), 10.2 Estándares de equipo codificados y verificables, 10.3 Indicador de calidad de colaboración con IA (extiende 9.5), y 10.4 Alcance y auditoría de acceso de herramientas de IA. La sección 10 ya cubría cómo la IA ejecuta las reglas existentes del framework (clase de servicio, WSJF, documentación, QA, alertas); estas subsecciones cubren un vacío distinto — cómo el equipo le da contexto a un agente de IA *antes* de que genere código, y cómo se mide y audita esa colaboración después. Se apoyan en mecánicas que el framework ya tenía (documentación de onboarding de 6.1/6.3, controles de CI/CD de la sección 8, indicadores de calidad de 9.5) en vez de crear procesos paralelos. Se actualiza la Tabla de contenido / Table of contents de ambos documentos.
+- `README.md`: versión declarada en "Estado" actualizada a 1.15.0.
+
 ## [1.14.1]
 
 ### Corregido

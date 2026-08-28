@@ -1,6 +1,6 @@
 # KPS — Kanban de Portafolio con SAFe
 
-**Versión 1.14.1** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
+**Versión 1.15.0** · Un framework abierto para equipos que reparten personas entre varios proyectos, deuda técnica, soporte y mejoras, con prioridades que cambian cada semana.
 
 > Licencia: CC BY-SA 4.0 — puedes usar, adaptar y redistribuir este framework, incluso comercialmente, siempre que des crédito y mantengas las adaptaciones bajo la misma licencia. Ver [`LICENSE`](./LICENSE).
 
@@ -36,6 +36,10 @@
   - [9.9 Indicadores para validar el piloto](#99-indicadores-para-validar-el-piloto)
   - [9.10 Enfoque Lean: eliminación de desperdicio y costo, no solo velocidad](#910-enfoque-lean-eliminación-de-desperdicio-y-costo-no-solo-velocidad)
 - [10. Apalancamiento con inteligencia artificial](#10-apalancamiento-con-inteligencia-artificial)
+  - [10.1 Contexto vivo por flujo de valor (para personas y para agentes de IA)](#101-contexto-vivo-por-flujo-de-valor-para-personas-y-para-agentes-de-ia)
+  - [10.2 Estándares de equipo codificados y verificables](#102-estándares-de-equipo-codificados-y-verificables)
+  - [10.3 Indicador de calidad de colaboración con IA (extiende 9.5)](#103-indicador-de-calidad-de-colaboración-con-ia-extiende-95)
+  - [10.4 Alcance y auditoría de acceso de herramientas de IA](#104-alcance-y-auditoría-de-acceso-de-herramientas-de-ia)
 - [11. Hoja de ruta de implementación](#11-hoja-de-ruta-de-implementación)
 - [12. Presupuesto y dotación: eficiencia de costos de la operación](#12-presupuesto-y-dotación-eficiencia-de-costos-de-la-operación)
   - [12.1 Dos categorías de costo que compiten por el mismo presupuesto](#121-dos-categorías-de-costo-que-compiten-por-el-mismo-presupuesto)
@@ -370,6 +374,30 @@ KPS está diseñado para apoyarse en herramientas de IA en los puntos donde gene
 - **Alertas de eficiencia:** un asistente de IA puede vigilar continuamente los indicadores de la sección 9 y avisar apenas alguno cruce su umbral (WIP excedido, iniciativa congelada, Expedite por encima del límite), en vez de esperar al ritual semanal para descubrirlo.
 
 En todos los casos, la IA acelera la ejecución de las reglas que ya definió el framework. Nunca reemplaza a quien tiene la autoridad de decisión (Responsable de Flujo de Portafolio, Aprobador de Clase de Servicio, Dueño de Calidad del Flujo). Esa distinción es la que evita que "apalancado con IA" se convierta en una caja negra que nadie entiende ni puede auditar.
+
+### 10.1 Contexto vivo por flujo de valor (para personas y para agentes de IA)
+
+Cada flujo de valor mantiene un documento de contexto vivo — stack tecnológico, estructura de carpetas, convenciones de nombres, decisiones de arquitectura vigentes y ejemplos de código representativos. No es un documento nuevo ni aparte: es el mismo que ya exige la sección 6.3 para el onboarding de personas nuevas, y el que la sección 6.1 exige a todo freelance saliente. Su función se amplía: es también el contexto que se entrega a cualquier asistente o agente de IA antes de pedirle que genere código sobre ese flujo, para que su primera propuesta parta de las convenciones reales del equipo y no de patrones genéricos de su entrenamiento.
+
+- Se actualiza como parte de la Definición de Hecho (sección 7) cuando un ítem introduce un cambio de arquitectura o convención relevante.
+- Vive donde ya vive la documentación de la sección 6 (repositorio o wiki del flujo de valor), no en una herramienta aparte que nadie mantiene.
+- Indicador de seguimiento (extiende 9.5): antigüedad del documento de contexto vivo desde su última actualización, por flujo de valor.
+
+### 10.2 Estándares de equipo codificados y verificables
+
+Las convenciones del equipo — estilo de código, patrones de arquitectura aceptados, límites de complejidad — se expresan, en la medida de lo posible, como reglas verificables por herramienta (linters, análisis estático, plantillas de PR), no solo como texto en el documento de contexto vivo de la sección 10.1. El pipeline de CI/CD (sección 8) ya exige análisis estático y de seguridad antes de la revisión humana; esta mecánica hace explícito que ese mismo control automatizado es la forma en que un agente de IA recibe retroalimentación objetiva sobre si su código sigue el estándar del equipo, en vez de depender de que un humano se lo repita ítem por ítem.
+
+### 10.3 Indicador de calidad de colaboración con IA (extiende 9.5)
+
+- **% de ítems generados con asistencia de IA aceptados en el primer intento**, sin retrabajo adicional más allá de la revisión normal de PR.
+- **Número de iteraciones (regeneraciones)** hasta llegar a una versión aceptable, promedio por flujo de valor.
+
+Estos dos indicadores se revisan junto con el resto de la sección 9.5. El objetivo es medir calidad de la colaboración con la IA, no velocidad de generación de código — coherente con el enfoque Lean de la sección 9.10: generar código rápido que después exige reescritura no elimina desperdicio, solo lo traslada de etapa (de "generación" a "retrabajo").
+
+### 10.4 Alcance y auditoría de acceso de herramientas de IA
+
+- Todo asistente o agente de IA con acceso a repositorios, sistemas o datos de producción opera con el mínimo alcance de permisos necesario para su tarea, revisado en la misma cadencia trimestral del resto de la sección 9 (9.8).
+- Ninguna herramienta de IA con capacidad de ejecutar cambios directamente — no solo de sugerirlos — se exime de la política de pull requests de la sección 8: revisor humano obligatorio, controles automáticos y tamaño de diff recomendado aplican igual cuando el autor del PR es un agente.
 
 ## 11. Hoja de ruta de implementación
 

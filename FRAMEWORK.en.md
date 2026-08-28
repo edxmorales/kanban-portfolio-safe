@@ -1,6 +1,6 @@
 # KPS — Kanban Portfolio with SAFe
 
-**Version 1.14.1** · An open framework for teams that split people across several projects, technical debt, support, and improvements, with priorities that change every week.
+**Version 1.15.0** · An open framework for teams that split people across several projects, technical debt, support, and improvements, with priorities that change every week.
 
 > License: CC BY-SA 4.0 — you can use, adapt, and redistribute this framework, even commercially, as long as you give credit and keep any adaptations under the same license. See [`LICENSE`](./LICENSE).
 
@@ -36,6 +36,10 @@
   - [9.9 Indicators to validate the pilot](#99-indicators-to-validate-the-pilot)
   - [9.10 Lean lens: eliminating waste and cost, not just speed](#910-lean-lens-eliminating-waste-and-cost-not-just-speed)
 - [10. Leveraging artificial intelligence](#10-leveraging-artificial-intelligence)
+  - [10.1 Living context per value stream (for people and for AI agents)](#101-living-context-per-value-stream-for-people-and-for-ai-agents)
+  - [10.2 Encoded, checkable team standards](#102-encoded-checkable-team-standards)
+  - [10.3 AI collaboration quality indicator (extends 9.5)](#103-ai-collaboration-quality-indicator-extends-95)
+  - [10.4 Scope and audit of AI tool access](#104-scope-and-audit-of-ai-tool-access)
 - [11. Implementation roadmap](#11-implementation-roadmap)
 - [12. Budget and staffing: operating cost efficiency](#12-budget-and-staffing-operating-cost-efficiency)
   - [12.1 Two cost categories competing for the same budget](#121-two-cost-categories-competing-for-the-same-budget)
@@ -370,6 +374,30 @@ KPS is designed to lean on AI tools at the points where they cut the most waste 
 - **Efficiency alerts:** an AI assistant can continuously watch the indicators from section 9 and flag the moment one crosses its threshold (WIP exceeded, a frozen initiative, Expedite above the limit), instead of waiting for the weekly ritual to find out.
 
 In every case, AI speeds up the execution of rules the framework has already defined. It never replaces whoever holds decision authority (Portfolio Flow Owner, Class of Service Approver, Flow Quality Owner). That distinction is what keeps "AI-leveraged" from turning into a black box nobody understands or can audit.
+
+### 10.1 Living context per value stream (for people and for AI agents)
+
+Each value stream keeps a living context document — tech stack, folder structure, naming conventions, current architecture decisions, and representative code examples. This isn't a new, separate document: it's the same one section 6.3 already requires for onboarding new people, and the one section 6.1 already requires from every departing freelancer. Its role expands: it's also the context handed to any AI assistant or agent before asking it to generate code on that stream, so its first proposal starts from the team's real conventions instead of generic patterns from its training.
+
+- Updated as part of the Definition of Done (section 7) whenever an item introduces a relevant architecture or convention change.
+- Lives where section 6's documentation already lives (the value stream's repo or wiki), not in a separate tool nobody maintains.
+- Tracking indicator (extends 9.5): time since the living context document's last update, per value stream.
+
+### 10.2 Encoded, checkable team standards
+
+Team conventions — code style, accepted architecture patterns, complexity limits — are expressed, wherever possible, as tool-checkable rules (linters, static analysis, PR templates), not only as text in the living context document from section 10.1. The CI/CD pipeline (section 8) already requires static and security analysis before human review; this mechanic makes explicit that the same automated check is how an AI agent gets objective feedback on whether its code follows the team's standard, instead of relying on a human repeating it item by item.
+
+### 10.3 AI collaboration quality indicator (extends 9.5)
+
+- **% of AI-assisted items accepted on the first pass**, with no rework beyond normal PR review.
+- **Number of iterations (regenerations)** to reach an acceptable version, averaged per value stream.
+
+Both indicators are reviewed alongside the rest of section 9.5. The goal is to measure the quality of the collaboration with AI, not the speed of code generation — consistent with the Lean lens of section 9.10: generating code fast that later needs rewriting doesn't eliminate waste, it just moves it downstream (from "generation" to "rework").
+
+### 10.4 Scope and audit of AI tool access
+
+- Any AI assistant or agent with access to repositories, systems, or production data operates with the minimum permission scope its task needs, reviewed on the same quarterly cadence as the rest of section 9 (9.8).
+- No AI tool capable of executing changes directly — not just suggesting them — is exempt from the pull request policy in section 8: mandatory human reviewer, automated checks, and the recommended diff size all apply the same way when the PR's author is an agent.
 
 ## 11. Implementation roadmap
 
